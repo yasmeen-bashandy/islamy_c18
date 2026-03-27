@@ -18,17 +18,41 @@ class $AssetsImagesGen {
   AssetGenImage get appLogo =>
       const AssetGenImage('assets/images/app_logo.png');
 
+  /// File path: assets/images/hadeeth_selected.svg
+  String get hadeethSelected => 'assets/images/hadeeth_selected.svg';
+
   /// File path: assets/images/hadeeth_tab_bg.png
   AssetGenImage get hadeethTabBg =>
       const AssetGenImage('assets/images/hadeeth_tab_bg.png');
+
+  /// File path: assets/images/hadeeth_unselected.svg
+  String get hadeethUnselected => 'assets/images/hadeeth_unselected.svg';
 
   /// File path: assets/images/islamy_header.png
   AssetGenImage get islamyHeader =>
       const AssetGenImage('assets/images/islamy_header.png');
 
+  /// File path: assets/images/quran_selected.svg
+  String get quranSelected => 'assets/images/quran_selected.svg';
+
   /// File path: assets/images/quran_tab_bg.png
   AssetGenImage get quranTabBg =>
       const AssetGenImage('assets/images/quran_tab_bg.png');
+
+  /// File path: assets/images/quran_unselected.svg
+  String get quranUnselected => 'assets/images/quran_unselected.svg';
+
+  /// File path: assets/images/radio-selected.svg
+  String get radioSelected => 'assets/images/radio-selected.svg';
+
+  /// File path: assets/images/radio_unselected.svg
+  String get radioUnselected => 'assets/images/radio_unselected.svg';
+
+  /// File path: assets/images/sebha_selected.svg
+  String get sebhaSelected => 'assets/images/sebha_selected.svg';
+
+  /// File path: assets/images/sebha_unselected.svg
+  String get sebhaUnselected => 'assets/images/sebha_unselected.svg';
 
   /// File path: assets/images/splash_branding.png
   AssetGenImage get splashBranding =>
@@ -38,14 +62,30 @@ class $AssetsImagesGen {
   AssetGenImage get splashLogo =>
       const AssetGenImage('assets/images/splash_logo.png');
 
+  /// File path: assets/images/time_selected.svg
+  String get timeSelected => 'assets/images/time_selected.svg';
+
+  /// File path: assets/images/time_unselected.svg
+  String get timeUnselected => 'assets/images/time_unselected.svg';
+
   /// List of all assets
-  List<AssetGenImage> get values => [
+  List<dynamic> get values => [
     appLogo,
+    hadeethSelected,
     hadeethTabBg,
+    hadeethUnselected,
     islamyHeader,
+    quranSelected,
     quranTabBg,
+    quranUnselected,
+    radioSelected,
+    radioUnselected,
+    sebhaSelected,
+    sebhaUnselected,
     splashBranding,
     splashLogo,
+    timeSelected,
+    timeUnselected,
   ];
 }
 

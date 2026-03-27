@@ -3,7 +3,7 @@ import 'package:islamy/common/app_color.dart';
 
 class AppTheme {
   static final ThemeData appTheme = ThemeData(
-    colorScheme: ColorScheme.fromSeed(seedColor: AppColor.goldColor),
+    colorScheme: ColorScheme.fromSeed(seedColor: AppColor.blackColor),
     scaffoldBackgroundColor: AppColor.blackColor,
     appBarTheme: AppBarTheme(
       backgroundColor: AppColor.blackColor,
@@ -16,6 +16,7 @@ class AppTheme {
       ),
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      type: BottomNavigationBarType.fixed,
       showSelectedLabels: true,
       showUnselectedLabels: false,
       elevation: 0,
@@ -26,7 +27,7 @@ class AppTheme {
         fontSize: 12,
         fontWeight: FontWeight.bold,
       ),
-      unselectedItemColor: AppColor.blackColor,
+      // unselectedItemColor: AppColor.blackColor,
     ),
   );
 }
